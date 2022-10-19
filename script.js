@@ -1,5 +1,5 @@
 let regForm = document.getElementById('registerform');
-    regForm.addEventListener('submit', function(e){
+    regForm.addEventListener('submit', function(e){   
         e.preventDefault();
     let name = regForm['name'].value;
    let email = regForm['email'].value;
@@ -20,7 +20,7 @@ let regForm = document.getElementById('registerform');
      valid = Age
    }
 else{
-    valid = "You must be " + 18
+    valid = "You must be 18" 
 }
       age.innerHTML = valid;
 
